@@ -1,0 +1,113 @@
+/* Definições globais para o corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Container centralizado com margens laterais */
+.container {
+  margin: 0 100px;
+}
+
+/* Estilos para o menu de navegação */
+.menu {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para os itens do menu de navegação */
+.navbar a {
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Efeito de realce nos itens do menu ao passar o mouse */
+.menu-item {
+  border-bottom: 2px solid transparent;
+}
+
+.menu-item:hover {
+  border-bottom: 2px solid #000;
+}
+
+/* Estilos para as seções na página */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+/* Estilos para a seção "Sobre" */
+.sobre {
+  max-width: 620px;
+  border: 5px solid #000;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* Estilos para os parágrafos dentro da seção "Sobre" */
+.sobre p {
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+
+/* Estilos para os títulos nas seções */
+.sobre h1, h3, h2 {
+  text-align: center;
+  margin: 0;
+}
+
+/* Estilos para o formulário de contato */
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+
+/* Estilos para o título do formulário */
+.formulario h2 {
+  margin-bottom: 25px;
+}
+
+/* Estilos para as etiquetas do formulário */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Estilos para campos de entrada de texto e área de texto */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+/* Estilos para área de texto redimensionável */
+textarea {
+  resize: vertical;
+}
+
+/* Estilos para o botão de envio */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Efeito de realce no botão de envio ao passar o mouse */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
